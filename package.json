@@ -1,11 +1,20 @@
 {
+  "private": true,
   "name": "react-redux-immutable-sample",
-  "version": "1.0.0",
   "description": "react redux immutable sample",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jigsaw (http://jgs.me)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "node-static": "^0.7.9",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "webpack": "^2.2.1"
+  }
 }
